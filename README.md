@@ -16,3 +16,7 @@ terraform init
 terraform plan --var-file=terraform.tfvars
 terraform apply --var-file=terraform.tfvars --auto-approve
 
+6. 10정도 기다리면 AKS 가 생성이 된다.
+
+7. AKS 가 생성되면, 포탈의 본인 리소스 그룹에 가서 쿠버네티스 자원의 속성을 보고, 접속을 해 준다.
+![image](https://user-images.githubusercontent.com/71998296/177923616-22925b73-b023-4f87-a827-207a2a3942cf.png)
